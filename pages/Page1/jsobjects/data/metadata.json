@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "674f3e08765287082032755d_72b5060c-f3b7-42fe-9078-42146fd5384d",
+  "id": "Page1_data",
+  "unpublishedCollection": {
+    "name": "data",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "todos",
+        "value": "undefined"
+      },
+      {
+        "name": "dummyTodos",
+        "value": "[{\n  title: 'use the input to add a todo',\n  completed: true\n}, {\n  title: 'hit enter to submit',\n  completed: false\n}, {\n  title: 'click on a todo to mark as done',\n  completed: false\n}, {\n  title: 'have fun',\n  completed: false\n}]"
+      }
+    ]
+  }
+}
