@@ -5,9 +5,6 @@
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
-      "key": "text"
-    },
-    {
       "key": "truncateButtonColor"
     },
     {
@@ -43,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "{{currentItem.title}}",
+  "text": "Name: {{AppSmith_API.data[currentIndex].name}} Age:{{AppSmith_API.data[currentIndex].age}}\n",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "textStyle": "HEADING",
