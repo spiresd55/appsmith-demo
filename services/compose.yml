@@ -1,0 +1,18 @@
+services:
+  api:
+    build:
+      dockerfile: ${PWD}/packages/appsmith-api/Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+  mongodb:
+    image: mongo
+    ports:
+      - '27018:27018'
+    volumes:
+      - mongodb_data_container:/data/db
+volumes:
+  mongodb_data_container:
+  # TODO: ADD DATABASE EXAMPLE AS WELL, CONSIDER GRAPHQL
+  # TODO: Authenticated API

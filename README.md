@@ -9,3 +9,17 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 ##### You can visit the application using the below link
 
 ###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://app.appsmith.com/applications/674f3e08765287082032755d/pages/674f3e08765287082032755f) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/674f3e08765287082032755d/pages/674f3e08765287082032755f/edit)
+
+
+## Connecting a local datasource using pinggy
+
+1. Read about Pinggy: https://pinggy.io/docs/
+2. We are going to use Pinggy to set up a tunnel to our local services
+3. Within the root directory run ``` docker compose up ```
+4. Then run the following command ``` ssh -p 443 -R0:localhost:3000 a.pinggy.io```
+5. This will generate a url that will expire within 60 minutes
+6. This allows us to develop against local services when building something with AppSmith
+
+
+## Relevant Documentation
+1. Using Form Widget: https://docs.appsmith.com/reference/widgets/form
